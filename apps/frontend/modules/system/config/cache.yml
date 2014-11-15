@@ -1,0 +1,12 @@
+## YAML Template.
+---
+
+index:
+  enabled:    false
+  contextual: false
+
+rss:
+  enabled:  false
+
+sitemap:
+  enabled:  false

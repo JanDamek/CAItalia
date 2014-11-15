@@ -1,0 +1,21 @@
+## YAML Template.
+---
+
+index:
+  enabled:    true
+  contextual: true
+
+list:
+  enabled:  false
+
+_ceny:
+  enabled:  true
+  
+dotaz:
+  enabled:  false
+  
+reserve:
+  enabled:  false
+  
+send_friend:
+  enabled:  false

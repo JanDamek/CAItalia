@@ -1,0 +1,47 @@
+## YAML Template.
+---
+ 
+_hp_akt:
+  enabled:  true
+  contextual: true
+
+_reklama1:
+  enabled:  false
+
+_reklama2:
+  enabled:  false
+
+_reklama3:
+  enabled:  false
+
+_hp_items:
+  enabled:  false
+  contextual:       true
+
+_hp_img:
+  enabled:  false
+  contextual: true
+
+_hp_promovat:
+  enabled:  false
+  contextual:       true
+
+index:
+  enabled:  true
+  contextual: false
+
+_hp_item:
+  enabled:    true
+
+_hp_kat_detail:
+  enabled:    true
+
+_hp_akt_item:
+  enabled:    true
+
+_hp_kat_detail:
+  enabled:    true
+
+_hp_kategorie:
+  enabled:    true
+  contextual: false

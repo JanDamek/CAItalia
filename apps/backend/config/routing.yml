@@ -1,0 +1,227 @@
+seo_text:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Seo_text
+    module:               seo_text
+    prefix_path:          /seo_text
+    column:               id
+    with_wildcard_routes: true
+
+cena_typ:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                CenaTyp
+    module:               cena_typ
+    prefix_path:          /cena_typ
+    column:               id
+    with_wildcard_routes: true
+
+seo:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                seo
+    module:               seo
+    prefix_path:          /seo
+    column:               id
+    with_wildcard_routes: true
+
+reklama_statistika:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                reklama_statistika
+    module:               reklama_statistika
+    prefix_path:          /reklama_statistika
+    column:               id
+    with_wildcard_routes: true
+
+cenyradky:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                cenyradky
+    module:               cenyradky
+    prefix_path:          /cenyradky
+    column:               id
+    with_wildcard_routes: true
+
+gallery:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Gallery
+    module:               gallery
+    prefix_path:          /gallery
+    column:               id
+    with_wildcard_routes: true
+
+gallery_sort_images:
+  url:  /gallery/:id/sort-images
+  param: { module: gallery, action: sortImages }
+
+gallery_delete_image:
+  url: /gallery/:id/delete
+  param: { module: gallery, action: deleteImage }
+  
+aktuality:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                aktuality
+    module:               aktuality
+    prefix_path:          /aktuality
+    column:               id
+    with_wildcard_routes: true
+
+typ:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                typ
+    module:               typ
+    prefix_path:          /typ
+    column:               id
+    with_wildcard_routes: true
+
+oblast:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                oblast
+    module:               oblast
+    prefix_path:          /oblast
+    column:               id
+    with_wildcard_routes: true
+
+stranky:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                stranky
+    module:               stranky
+    prefix_path:          /stranky
+    column:               id
+    with_wildcard_routes: true
+
+hp_promovat:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                hp_promovat
+    module:               hp_promovat
+    prefix_path:          /hp_promovat
+    column:               id
+    with_wildcard_routes: true
+
+hp_img:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                hp_img
+    module:               hp_img
+    prefix_path:          /hp_img
+    column:               id
+    with_wildcard_routes: true
+
+reklama_pozice:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                reklama_pozice
+    module:               reklama_pozice
+    prefix_path:          /reklama_pozice
+    column:               id
+    with_wildcard_routes: true
+
+reklama:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                reklama
+    module:               reklama
+    prefix_path:          /reklama
+    column:               id
+    with_wildcard_routes: true
+
+kategorie:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                kategorie
+    module:               kategorie
+    prefix_path:          /kategorie
+    column:               id
+    with_wildcard_routes: true
+
+setting:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                setting
+    module:               setting
+    prefix_path:          /setting
+    column:               id
+    with_wildcard_routes: true
+
+zajezdy:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                zajezdy
+    module:               zajezdy
+    prefix_path:          /zajezdy
+    column:               id
+    with_wildcard_routes: true
+zajezdy-lucene-reindex:
+  url:  /zajezdy/reindex
+  param: { module: zajezdy, action: luceneReindex }
+
+destinace:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Destinace
+    module:               destinace
+    prefix_path:          /destinace
+    column:               id
+    with_wildcard_routes: true
+
+ceny:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Ceny
+    module:               ceny
+    prefix_path:          /ceny
+    column:               id
+    with_wildcard_routes: true
+
+ceny_sort_images:
+  url:  /ceny/:id/sort-images
+  param: { module: ceny, action: sortImages }
+
+ceny_delete_image:
+  url: /ceny/:id/delete
+  param: { module: ceny, action: deleteImage }
+
+mista:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Mista
+    module:               mista
+    prefix_path:          /mista
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /request_password
+  param: { module: sfGuardAuth, action: password }
+
+# default rules
+homepage:
+  url:   /
+  param: { module: zajezdy, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

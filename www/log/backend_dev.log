@@ -1,0 +1,497 @@
+Mar 20 09:19:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'zajezdy',  'action' => 'index',)
+Mar 20 09:31:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'zajezdy',  'action' => 'index',)
+Mar 20 09:31:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'zajezdy',  'action' => 'index',)
+Mar 20 09:31:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'zajezdy',  'action' => 'index',)
+Mar 20 09:34:30 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'zajezdy',  'action' => 'index',)
+Mar 20 10:05:53 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/event_dispatcher/sfEventDispatcher.php on line 79 (call_user_func() expects parameter 1 to be a valid callback, class 'sfGuardRouting' not found)
+Mar 20 10:05:53 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/event_dispatcher/sfEventDispatcher.php on line 79 (call_user_func() expects parameter 1 to be a valid callback, class 'sfGuardRouting' not found)
+Mar 20 10:05:53 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/event_dispatcher/sfEventDispatcher.php on line 79 (call_user_func() expects parameter 1 to be a valid callback, class 'sfGuardRouting' not found)
+Mar 20 10:05:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'zajezdy',  'action' => 'index',)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_filter" (/guard/groups/filter.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_batch" (/guard/groups/batch.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group" (/guard/groups.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_new" (/guard/groups/new.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_create" (/guard/groups.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_edit" (/guard/groups/:id/edit.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_update" (/guard/groups/:id.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_delete" (/guard/groups/:id.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_show" (/guard/groups/:id.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_object" (/guard/groups/:id/:action.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_collection" (/guard/groups/:action/action.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_filter" (/guard/permissions/filter.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_batch" (/guard/permissions/batch.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission" (/guard/permissions.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_new" (/guard/permissions/new.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_create" (/guard/permissions.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_edit" (/guard/permissions/:id/edit.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_update" (/guard/permissions/:id.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_delete" (/guard/permissions/:id.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_show" (/guard/permissions/:id.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_object" (/guard/permissions/:id/:action.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_collection" (/guard/permissions/:action/action.:sf_format)
+Mar 20 10:07:00 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'zajezdy',  'action' => 'index',)
+bře 20 10:07:00 symfony [info] {myUser} Automatic user logout due to timeout
+bře 20 10:07:00 symfony [info] {myUser} User is not authenticated
+bře 20 10:07:00 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/vendor/swiftmailer/preferences.php on line 15 (is_writable(): open_basedir restriction in effect. File(/tmp) is not within the allowed path(s): (/srv/caitalia.cz/www/:/usr/local/php/lib/php/:/usr/local/lib/php/))
+bře 20 10:07:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+bře 20 10:07:01 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+bře 20 10:07:01 symfony [info] {sfBasicSecurityFilter} Action "zajezdy/index" requires authentication, forwarding to "sfGuardAuth/signin"
+bře 20 10:07:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+bře 20 10:07:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+bře 20 10:07:01 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+bře 20 10:07:01 symfony [info] {sfPHPView} Render "/srv/caitalia.cz/www/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+bře 20 10:07:01 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+bře 20 10:07:01 symfony [info] {sfPHPView} Decorate content with "/srv/caitalia.cz/www/apps/backend/templates/layout.php"
+bře 20 10:07:01 symfony [info] {sfPHPView} Render "/srv/caitalia.cz/www/apps/backend/templates/layout.php"
+bře 20 10:07:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+bře 20 10:07:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+bře 20 10:07:01 symfony [info] {sfWebDebugLogger} Configuration 694.89 ms (15)
+bře 20 10:07:01 symfony [info] {sfWebDebugLogger} Factories 434.61 ms (1)
+bře 20 10:07:01 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 51.59 ms (1)
+bře 20 10:07:01 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 116.50 ms (1)
+bře 20 10:07:01 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 24.56 ms (1)
+bře 20 10:07:01 symfony [info] {sfWebResponse} Send content (51247 o)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_filter" (/guard/groups/filter.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_batch" (/guard/groups/batch.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group" (/guard/groups.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_new" (/guard/groups/new.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_create" (/guard/groups.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_edit" (/guard/groups/:id/edit.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_update" (/guard/groups/:id.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_delete" (/guard/groups/:id.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_show" (/guard/groups/:id.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_object" (/guard/groups/:id/:action.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_collection" (/guard/groups/:action/action.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_filter" (/guard/permissions/filter.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_batch" (/guard/permissions/batch.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission" (/guard/permissions.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_new" (/guard/permissions/new.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_create" (/guard/permissions.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_edit" (/guard/permissions/:id/edit.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_update" (/guard/permissions/:id.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_delete" (/guard/permissions/:id.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_show" (/guard/permissions/:id.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_object" (/guard/permissions/:id/:action.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_collection" (/guard/permissions/:action/action.:sf_format)
+Mar 20 10:08:44 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'zajezdy',  'action' => 'index',)
+bře 20 10:08:44 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/vendor/swiftmailer/preferences.php on line 15 (is_writable(): open_basedir restriction in effect. File(/tmp) is not within the allowed path(s): (/srv/caitalia.cz/www/:/usr/local/php/lib/php/:/usr/local/lib/php/))
+bře 20 10:08:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+bře 20 10:08:44 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+bře 20 10:08:44 symfony [info] {sfBasicSecurityFilter} Action "zajezdy/index" requires authentication, forwarding to "sfGuardAuth/signin"
+bře 20 10:08:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+bře 20 10:08:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+bře 20 10:08:44 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+bře 20 10:08:44 symfony [info] {sfPHPView} Render "/srv/caitalia.cz/www/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+bře 20 10:08:44 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+bře 20 10:08:44 symfony [info] {sfPHPView} Decorate content with "/srv/caitalia.cz/www/apps/backend/templates/layout.php"
+bře 20 10:08:44 symfony [info] {sfPHPView} Render "/srv/caitalia.cz/www/apps/backend/templates/layout.php"
+bře 20 10:08:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+bře 20 10:08:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+bře 20 10:08:44 symfony [info] {sfWebDebugLogger} Configuration 206.69 ms (14)
+bře 20 10:08:44 symfony [info] {sfWebDebugLogger} Factories 333.96 ms (1)
+bře 20 10:08:44 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 49.05 ms (1)
+bře 20 10:08:44 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 108.39 ms (1)
+bře 20 10:08:44 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 23.71 ms (1)
+bře 20 10:08:44 symfony [info] {sfWebResponse} Send content (52184 o)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_filter" (/guard/groups/filter.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_batch" (/guard/groups/batch.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group" (/guard/groups.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_new" (/guard/groups/new.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_create" (/guard/groups.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_edit" (/guard/groups/:id/edit.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_update" (/guard/groups/:id.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_delete" (/guard/groups/:id.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_show" (/guard/groups/:id.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_object" (/guard/groups/:id/:action.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_collection" (/guard/groups/:action/action.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_filter" (/guard/permissions/filter.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_batch" (/guard/permissions/batch.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission" (/guard/permissions.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_new" (/guard/permissions/new.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_create" (/guard/permissions.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_edit" (/guard/permissions/:id/edit.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_update" (/guard/permissions/:id.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_delete" (/guard/permissions/:id.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_show" (/guard/permissions/:id.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_object" (/guard/permissions/:id/:action.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_collection" (/guard/permissions/:action/action.:sf_format)
+Mar 20 10:17:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'zajezdy',  'action' => 'index',)
+bře 20 10:17:33 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/vendor/swiftmailer/preferences.php on line 15 (is_writable(): open_basedir restriction in effect. File(/tmp) is not within the allowed path(s): (/srv/caitalia.cz/www/:/usr/local/php/lib/php/:/usr/local/lib/php/))
+bře 20 10:17:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+bře 20 10:17:33 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+bře 20 10:17:33 symfony [info] {sfBasicSecurityFilter} Action "zajezdy/index" requires authentication, forwarding to "sfGuardAuth/signin"
+bře 20 10:17:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+bře 20 10:17:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+bře 20 10:17:33 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+bře 20 10:17:33 symfony [info] {sfPHPView} Render "/srv/caitalia.cz/www/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+bře 20 10:17:33 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+bře 20 10:17:33 symfony [info] {sfPHPView} Decorate content with "/srv/caitalia.cz/www/apps/backend/templates/layout.php"
+bře 20 10:17:33 symfony [info] {sfPHPView} Render "/srv/caitalia.cz/www/apps/backend/templates/layout.php"
+bře 20 10:17:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+bře 20 10:17:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+bře 20 10:17:33 symfony [info] {sfWebDebugLogger} Configuration 47.00 ms (14)
+bře 20 10:17:33 symfony [info] {sfWebDebugLogger} Factories 268.98 ms (1)
+bře 20 10:17:33 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 60.00 ms (1)
+bře 20 10:17:33 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 110.67 ms (1)
+bře 20 10:17:33 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 23.37 ms (1)
+bře 20 10:17:33 symfony [info] {sfWebResponse} Send content (52182 o)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_filter" (/guard/groups/filter.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_batch" (/guard/groups/batch.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group" (/guard/groups.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_new" (/guard/groups/new.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_create" (/guard/groups.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_edit" (/guard/groups/:id/edit.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_update" (/guard/groups/:id.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_delete" (/guard/groups/:id.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_show" (/guard/groups/:id.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_object" (/guard/groups/:id/:action.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_collection" (/guard/groups/:action/action.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_filter" (/guard/permissions/filter.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_batch" (/guard/permissions/batch.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission" (/guard/permissions.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_new" (/guard/permissions/new.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_create" (/guard/permissions.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_edit" (/guard/permissions/:id/edit.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_update" (/guard/permissions/:id.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_delete" (/guard/permissions/:id.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_show" (/guard/permissions/:id.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_object" (/guard/permissions/:id/:action.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_collection" (/guard/permissions/:action/action.:sf_format)
+Mar 20 10:17:37 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+bře 20 10:17:37 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/vendor/swiftmailer/preferences.php on line 15 (is_writable(): open_basedir restriction in effect. File(/tmp) is not within the allowed path(s): (/srv/caitalia.cz/www/:/usr/local/php/lib/php/:/usr/local/lib/php/))
+bře 20 10:17:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+bře 20 10:17:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+bře 20 10:17:37 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+bře 20 10:17:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+bře 20 10:17:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sf_guard_user s WHERE (s.username = ? AND s.is_active = ?) - (honza74, 1)
+bře 20 10:17:37 symfony [info] {myUser} User is authenticated
+bře 20 10:17:37 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/autoload/sfAutoload.class.php on line 188 (require(): Unable to access /srv/caitalia.cz/www/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserPermissionTable.class.php)
+bře 20 10:17:37 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/autoload/sfAutoload.class.php on line 188 (require(/srv/caitalia.cz/www/lib/model/doctrine/sfDoctrineGuardPlugin/sfGuardUserPermissionTable.class.php): failed to open stream: No such file or directory)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_filter" (/guard/groups/filter.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_batch" (/guard/groups/batch.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group" (/guard/groups.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_new" (/guard/groups/new.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_create" (/guard/groups.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_edit" (/guard/groups/:id/edit.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_update" (/guard/groups/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_delete" (/guard/groups/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_show" (/guard/groups/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_object" (/guard/groups/:id/:action.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_collection" (/guard/groups/:action/action.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_filter" (/guard/permissions/filter.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_batch" (/guard/permissions/batch.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission" (/guard/permissions.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_new" (/guard/permissions/new.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_create" (/guard/permissions.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_edit" (/guard/permissions/:id/edit.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_update" (/guard/permissions/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_delete" (/guard/permissions/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_show" (/guard/permissions/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_object" (/guard/permissions/:id/:action.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_collection" (/guard/permissions/:action/action.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+bře 20 10:19:27 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/vendor/swiftmailer/preferences.php on line 15 (is_writable(): open_basedir restriction in effect. File(/tmp) is not within the allowed path(s): (/srv/caitalia.cz/www/:/usr/local/php/lib/php/:/usr/local/lib/php/))
+bře 20 10:19:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+bře 20 10:19:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+bře 20 10:19:27 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+bře 20 10:19:27 symfony [info] {sfFrontWebController} Redirect to "http://www.caitalia.cz/backend_dev.php/"
+bře 20 10:19:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+bře 20 10:19:27 symfony [info] {sfWebResponse} Send header "Location: http://www.caitalia.cz/backend_dev.php/"
+bře 20 10:19:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+bře 20 10:19:27 symfony [info] {sfWebDebugLogger} Configuration 25.26 ms (8)
+bře 20 10:19:27 symfony [info] {sfWebDebugLogger} Factories 229.40 ms (1)
+bře 20 10:19:27 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 1.06 ms (1)
+bře 20 10:19:27 symfony [info] {sfWebResponse} Send content (110 o)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_filter" (/guard/groups/filter.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_batch" (/guard/groups/batch.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group" (/guard/groups.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_new" (/guard/groups/new.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_create" (/guard/groups.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_edit" (/guard/groups/:id/edit.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_update" (/guard/groups/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_delete" (/guard/groups/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_show" (/guard/groups/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_object" (/guard/groups/:id/:action.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_collection" (/guard/groups/:action/action.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_filter" (/guard/permissions/filter.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_batch" (/guard/permissions/batch.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission" (/guard/permissions.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_new" (/guard/permissions/new.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_create" (/guard/permissions.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_edit" (/guard/permissions/:id/edit.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_update" (/guard/permissions/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_delete" (/guard/permissions/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_show" (/guard/permissions/:id.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_object" (/guard/permissions/:id/:action.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_collection" (/guard/permissions/:action/action.:sf_format)
+Mar 20 10:19:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'zajezdy',  'action' => 'index',)
+bře 20 10:19:28 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/vendor/swiftmailer/preferences.php on line 15 (is_writable(): open_basedir restriction in effect. File(/tmp) is not within the allowed path(s): (/srv/caitalia.cz/www/:/usr/local/php/lib/php/:/usr/local/lib/php/))
+bře 20 10:19:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+bře 20 10:19:28 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+bře 20 10:19:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+bře 20 10:19:28 symfony [info] {zajezdyActions} Call "zajezdyActions->executeIndex()"
+bře 20 10:19:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+bře 20 10:19:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM zajezdy z - ()
+bře 20 10:19:28 symfony [info] {sfPHPView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/indexSuccess.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_assets.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_flashes.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_header.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d - ()
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT o.id AS o__id, o.name AS o__name, o.popis AS o__popis, o.destinace_id AS o__destinace_id, o.adr_map_google AS o__adr_map_google, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM oblast o - ()
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.id AS t__id, t.name AS t__name, t.popis AS t__popis, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM typ t - ()
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.popis AS c__popis, c.is_active AS c__is_active, c.min_den AS c__min_den, c.sl1 AS c__sl1, c.sl1p AS c__sl1p, c.sl2 AS c__sl2, c.sl2p AS c__sl2p, c.sl3 AS c__sl3, c.sl3p AS c__sl3p, c.sl4 AS c__sl4, c.sl4p AS c__sl4p, c.sl5 AS c__sl5, c.sl5p AS c__sl5p, c.sl6 AS c__sl6, c.sl6p AS c__sl6p, c.sl7 AS c__sl7, c.sl7p AS c__sl7p, c.sl8 AS c__sl8, c.sl8p AS c__sl8p, c.sl9 AS c__sl9, c.sl9p AS c__sl9p, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM ceny c - ()
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.popis AS c__popis, c.is_active AS c__is_active, c.min_den AS c__min_den, c.sl1 AS c__sl1, c.sl1p AS c__sl1p, c.sl2 AS c__sl2, c.sl2p AS c__sl2p, c.sl3 AS c__sl3, c.sl3p AS c__sl3p, c.sl4 AS c__sl4, c.sl4p AS c__sl4p, c.sl5 AS c__sl5, c.sl5p AS c__sl5p, c.sl6 AS c__sl6, c.sl6p AS c__sl6p, c.sl7 AS c__sl7, c.sl7p AS c__sl7p, c.sl8 AS c__sl8, c.sl8p AS c__sl8p, c.sl9 AS c__sl9, c.sl9p AS c__sl9p, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM ceny c - ()
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT g.id AS g__id, g.title AS g__title, g.description AS g__description, g.path AS g__path, g.is_active AS g__is_active, g.created_at AS g__created_at, g.updated_at AS g__updated_at, g.slug AS g__slug FROM gallery g - ()
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.popis AS c__popis, c.is_active AS c__is_active, c.min_den AS c__min_den, c.sl1 AS c__sl1, c.sl1p AS c__sl1p, c.sl2 AS c__sl2, c.sl2p AS c__sl2p, c.sl3 AS c__sl3, c.sl3p AS c__sl3p, c.sl4 AS c__sl4, c.sl4p AS c__sl4p, c.sl5 AS c__sl5, c.sl5p AS c__sl5p, c.sl6 AS c__sl6, c.sl6p AS c__sl6p, c.sl7 AS c__sl7, c.sl7p AS c__sl7p, c.sl8 AS c__sl8, c.sl8p AS c__sl8p, c.sl9 AS c__sl9, c.sl9p AS c__sl9p, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM ceny c - ()
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.popis AS c__popis, c.is_active AS c__is_active, c.min_den AS c__min_den, c.sl1 AS c__sl1, c.sl1p AS c__sl1p, c.sl2 AS c__sl2, c.sl2p AS c__sl2p, c.sl3 AS c__sl3, c.sl3p AS c__sl3p, c.sl4 AS c__sl4, c.sl4p AS c__sl4p, c.sl5 AS c__sl5, c.sl5p AS c__sl5p, c.sl6 AS c__sl6, c.sl6p AS c__sl6p, c.sl7 AS c__sl7, c.sl7p AS c__sl7p, c.sl8 AS c__sl8, c.sl8p AS c__sl8p, c.sl9 AS c__sl9, c.sl9p AS c__sl9p, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM ceny c - ()
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_filters_field.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_th_tabular.php"
+bře 20 10:19:28 symfony [info] {main} Set slot "sf_admin.current_header"
+bře 20 10:19:28 symfony [info] {main} Get slot "sf_admin.current_header"
+bře 20 10:19:28 symfony [info] {main} Set slot "sf_admin.current_header"
+bře 20 10:19:28 symfony [info] {main} Get slot "sf_admin.current_header"
+bře 20 10:19:28 symfony [info] {main} Set slot "sf_admin.current_header"
+bře 20 10:19:28 symfony [info] {main} Get slot "sf_admin.current_header"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_pagination.php"
+bře 20 10:19:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT z.id AS z__id, z.name AS z__name, z.destinace_id AS z__destinace_id, z.oblast_id AS z__oblast_id, z.typ_id AS z__typ_id, z.cena_od AS z__cena_od, z.ceny_id AS z__ceny_id, z.ceny2_id AS z__ceny2_id, z.obrazek AS z__obrazek, z.gallery_id AS z__gallery_id, z.publikovat AS z__publikovat, z.max_pocet_osob AS z__max_pocet_osob, z.max_pristilka AS z__max_pristilka, z.popis_list AS z__popis_list, z.popis_detail AS z__popis_detail, z.last_minute AS z__last_minute, z.cena_last_minute AS z__cena_last_minute, z.last_minute_do AS z__last_minute_do, z.ceny_last_minute_id AS z__ceny_last_minute_id, z.ceny_last_minute2_id AS z__ceny_last_minute2_id, z.akce AS z__akce, z.autobus AS z__autobus, z.parkoviste AS z__parkoviste, z.klimatizace AS z__klimatizace, z.bazen AS z__bazen, z.strava AS z__strava, z.internet AS z__internet, z.plazovy_servis AS z__plazovy_servis, z.tv AS z__tv, z.zvire AS z__zvire, z.adr_map_google AS z__adr_map_google, z.promovat_hp_do AS z__promovat_hp_do, z.promovat_hp_pos AS z__promovat_hp_pos, z.keywords AS z__keywords, z.description AS z__description, z.detail AS z__detail, z.zobrazeno AS z__zobrazeno, z.imprese AS z__imprese, z.zacatek AS z__zacatek, z.konec AS z__konec, z.created_at AS z__created_at, z.updated_at AS z__updated_at, z.slug AS z__slug FROM zajezdy z LIMIT 20 - ()
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:28 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (5)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (1)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (3)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (4)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (7)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (2)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (3)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (4)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (5)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (1)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (2)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (3)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (4)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (5)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (1)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (2)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (3)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (4)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (5)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_tabular.php"
+bře 20 10:19:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT d.id AS d__id, d.name AS d__name, d.img AS d__img, d.popis AS d__popis, d.keywords AS d__keywords, d.description AS d__description, d.poradi AS d__poradi, d.adr_map_google AS d__adr_map_google, d.created_at AS d__created_at, d.updated_at AS d__updated_at, d.slug AS d__slug FROM destinace d WHERE (d.id = ?) - (1)
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_field_boolean.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_td_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_batch_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_actions.php"
+bře 20 10:19:29 symfony [info] {sfPartialView} Render "/srv/caitalia.cz/www/cache/backend/dev/modules/autoZajezdy/templates/_list_footer.php"
+bře 20 10:19:29 symfony [info] {sfPHPView} Decorate content with "/srv/caitalia.cz/www/apps/backend/templates/layout.php"
+bře 20 10:19:29 symfony [info] {sfPHPView} Render "/srv/caitalia.cz/www/apps/backend/templates/layout.php"
+bře 20 10:19:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+bře 20 10:19:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Configuration 97.82 ms (12)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Factories 254.59 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Action "zajezdy/index" 283.42 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.08 ms (31)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} View "Success" for "zajezdy/index" 1045.13 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_assets" 3.15 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_flashes" 3.23 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_list_header" 3.03 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_filters" 344.46 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_filters_field" 292.43 ms (42)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_list" 471.05 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_list_th_tabular" 4.45 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_pagination" 4.35 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_list_td_batch_actions" 72.76 ms (20)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_list_td_tabular" 250.67 ms (20)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_list_field_boolean" 72.36 ms (20)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_list_td_actions" 103.16 ms (20)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_list_batch_actions" 3.80 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_list_actions" 3.38 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebDebugLogger} Partial "zajezdy/_list_footer" 3.08 ms (1)
+bře 20 10:19:29 symfony [info] {sfWebResponse} Send content (787883 o)
+bře 20 12:21:18 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/vendor/swiftmailer/preferences.php on line 15 (is_writable(): open_basedir restriction in effect. File(/tmp) is not within the allowed path(s): (/srv/caitalia.cz/www/:/usr/local/php/lib/php/:/usr/local/lib/php/))
+bře 20 12:21:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.10 ms (31)
+bře 20 17:49:26 symfony [warning] {sfWebDebugLogger}  Warning at /srv/caitalia.cz/www/lib/vendor/Symfony/lib/vendor/swiftmailer/preferences.php on line 15 (is_writable(): open_basedir restriction in effect. File(/tmp) is not within the allowed path(s): (/srv/caitalia.cz/www/:/usr/local/php/lib/php/:/usr/local/lib/php/))
+bře 20 17:49:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.10 ms (31)

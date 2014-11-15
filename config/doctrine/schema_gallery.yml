@@ -1,0 +1,53 @@
+# gallery, gallery image
+
+Gallery:
+  actAs:
+    Timestampable: ~
+    Sluggable:
+      unique: false
+      fields: [title]
+      canUpdate: true
+  columns:
+    title:       { type: string(100), notnull: true }
+    description: { type: clob, notnull: false }
+    path:        { type: string(255), notnull: true }
+    is_active:  { type: boolean, notnull: true, default: true }
+    kat: 
+      type: enum
+      values: ["Leto","Zima","Agroturistika"]
+      default: Leto
+  relations:
+    GalleryImages:
+      class: GalleryImage
+      local: id
+      foreign: gallery_id
+      type: many
+  indexes:
+    IsActive:
+      fields:
+        is_active:
+          sorting: ASC
+
+GalleryImage:
+  actAs:
+    Timestampable: ~
+  columns:
+    gallery_id: { type: bigint(20), notnull: true }
+    is_active:  { type: boolean, notnull: true, default: true }
+    path:       { type: string(255), notnull: true }
+    alt:        { type: string(60), notnull: true }
+    title:      { type: string(100), notnull: false }
+    ord:        { type: integer }
+  relations:
+    Gallery:
+      local: gallery_id
+      foreign: id
+      onDelete: CASCADE
+      foreignAlias: GalleryImages
+  indexes:
+    oreding:
+      fields:
+        gallery_id:
+          sorting: ASC
+        ord:
+          sorting: ASC

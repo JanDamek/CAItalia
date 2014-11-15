@@ -1,0 +1,28 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           destinace
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          destinace
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    
+        display: [Regiony, kat, =name, publikovat_italie, poradi_italie ]
+        title: Destinace        
+      filter:  ~
+      form:    ~
+      edit:     
+        ## grouped
+        display: 
+          "Italia2012": [regiony_id,publikovat_italie,poradi_italie,cena_od_italie, cena_od_italie_ozna,popisek_italie,pozice_italie_x,pozice_italie_y]
+          "Základní": [name, img, kat, kategorie_list]
+          "Caitalia": [popis, poradi, keywords, description,adr_map_google]          
+      new:     ~

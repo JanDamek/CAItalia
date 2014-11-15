@@ -1,0 +1,31 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           reklama_statistika
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          reklama_statistika
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions:        
+      fields:  ~
+      list:
+        display: [ =Reklama, =ReklamaPozice, =from_ip, =created_at]
+        title: Statistika prokliků
+        actions:
+        sort:   [created_at, desc]
+        fields:
+          from_ip:
+            label: IP adresa klienta
+          created_at:
+            label: Datum
+      filter:  ~
+      form:    
+        display:
+          NONE:     [id]
+          Editable: []

@@ -1,0 +1,159 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+rss:
+  url:   /rss
+  param: { module: system, action: rss }
+
+sitemap:
+  url:   /sitemap.xml
+  param: { module: system, action: sitemap }
+
+reindex:
+  url:   /reindex
+  param: { module: system, action: reindex }
+
+reklama:
+  url: /rek-click/:reklama_pozice_id/:id.html
+  param: { module: reklama, action: index }
+rek1:
+  url: /rek-show/:pozice.html
+  param: { module: reklama, action: show }
+
+o_italii:
+  url: /o-italii.html
+  param: { module: stranky, action: index, slug: o-italii, title: O Itálii }
+o_italii-italie:
+  url: /o-italii/italie.html
+  param: { module: stranky, action: index, slug: italie, title: O Itálii - Itálie }
+o_italii-destinace:
+  url: /o-italii/destinace.html
+  param: { module: destinace, action: list }
+o_italii-destinace-detail:
+  url: /o-italii/destinace/:slug.html
+  param: { module: destinace, action: detail }
+o_italii-doprava:
+  url: /o-italii/doprava.html
+  param: { module: stranky, action: index, slug: it-doprava }
+o_italii-pocasi:
+  url: /o-italii/pocasi.html
+  param: { module: stranky, action: index, slug: pocasi }
+
+informace:
+  url: /informace.html
+  param: { module: stranky, action: index, slug: informace }
+informace-jak-objednat-pobyt:
+  url: /informace/jak-objednat-pobyt.html
+  param: { module: stranky, action: index, slug: jak-objednat-pobyt }
+informace-VOP:
+  url: /informace/vop.html
+  param: { module: stranky, action: index, slug: vop }
+informace-vzor-smlouvy:
+  url: /informace/vzor-smlouvy.html
+  param: { module: stranky, action: index, slug: vzor-smlouvy }
+informace-casto-kladene-otazky:
+  url: /informace/casto-kladene-otazky.html
+  param: { module: stranky, action: index, slug: casto-kladene-otazky }
+informace-asistence-klientum:
+  url: /informace/asistence-klientum.html
+  param: { module: stranky, action: index, slug: vzor-smlouvy }
+informace-darky-pro-klienty:
+  url: /informace/darky-pro-klienty.html
+  param: { module: stranky, action: index, slug: darky-pro-klienty }
+informace-slug:
+  url: /informace/:slug.html
+  param: { module: stranky, action: index }
+  
+seo_text:
+  url: /info/:slug.html
+  param: { module: seo, action: index }
+
+pojisteni:
+  url: /pojisteni.html
+  param: { module: stranky, action: index, slug: pojisteni }
+
+o-nas:
+  url: /o-nas.html
+  param: { module: stranky, action: index, slug: o-nas }
+o-nas-historie:
+  url: /o-nas/historie.html
+  param: { module: stranky, action: index, slug: historie }
+o-nas-reference:
+  url: /o-nas/reference.html
+  param: { module: stranky, action: index, slug: reference }
+o-nas-partneri:
+  url: /o-nas/partneri.html
+  param: { module: stranky, action: index, slug: partneri }
+o-nas-partneri-odkazy:
+  url: /o-nas/partneri/odkazy.html
+  param: { module: stranky, action: index, slug: odkazy }  
+o-nas-kontakty:
+  url: /o-nas/kontakty.html
+  param: { module: stranky, action: index, slug: kontakty }
+
+doprava:
+  url: /doprava.html
+  param: { module: stranky, action: index, slug: doprava }
+doprava-automobile:
+  url: /doprava/automobilem.html
+  param: { module: stranky, action: index, slug: automobilem }
+doprava-autobusem:
+  url: /doprava/autobusem.html
+  param: { module: stranky, action: index, slug: autobusem }
+doprava-letadlem:
+  url: /doprava/letadlem.html
+  param: { module: stranky, action: index, slug: letadlem }
+
+last_minute:
+  url: /last-minute.html/:page
+  param: { module: lastminute, action: index, page: 1 }
+
+aktuality:
+  url: /aktuality.html/:page
+  param: { module: aktuality, action: index, page: 1 }
+
+aktuality_detail:
+  url: /aktuality/:slug.html
+  param: { module: aktuality, action: detail }
+
+item_detail:
+  url: /zajezd/:slug.html
+  param: { module: item, action: index }
+
+item_rezervace:
+  url: /zajezd/:slug/rezervace/:cenik/:cenik_radky/:sl.html
+  param: { module: item, action: reserve }
+
+item_dotaz:
+  url: /zajezd/:slug/dotaz.html
+  param: { module: item, action: dotaz }
+
+item_send_friend:
+  url: /zajezd/:slug/send.html
+  param: { module: item, action: send_friend }
+  
+destinace_list:
+  url: /destinace/:slug.html/:page
+  param: { module: destinace, action: index, page: 1 }
+
+kategorie_list:
+  url: /kategorie/:slug.html/:page
+  param: { module: destinace, action: kategorie, page: 1 }
+
+search:
+  url: /hledat/:page
+  param: { module: search, action: index, page: 1 }
+
+# default rules
+homepage:
+  url:   /:page
+  param: { module: homepage, action: index, page: 1 }
+
+# generic rules
+# please, remove them by adding more specific rules
+#default_index:
+#  url:   /:module
+#  param: { action: index }
+
+#default:
+#  url:   /:module/:action/*

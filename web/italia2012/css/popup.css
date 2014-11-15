@@ -1,0 +1,157 @@
+/*
+Theme Name: Name
+Theme URI: http://webovky.cz/
+Description: Vzhled pro
+Version: 1.0
+Author: Mcihal Kořínek
+Author URI: http://korinekmichal.cz/
+Tags: web, css, xhtml, javascript
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+  font-family: arial;
+  font-size: 15px;
+  color: #fff;
+}
+
+.cistic {
+  clear: both;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+#zajezd {
+  background: url(pic/popup_bg.png) no-repeat;
+  width: 740px;
+  height: 540px;
+  padding: 40px;
+}
+#leva {
+  width: 350px;
+  height: 520px;
+  float: left;
+}
+.cena  {
+  text-align: center;
+}
+.cena span {
+  font-size: 20px;
+}
+.cena strong {
+  font-size: 40px;
+}
+.big img {
+  border: 5px solid #89c9e3;
+   margin: 30px 0px 0px 0px;
+}
+.small img {
+  border: 5px solid #89c9e3;
+  margin: 10px 8px 0px 0px;
+}
+#button {
+  background: url(pic/button.png) no-repeat;
+  width: 301px;
+  height: 59px;
+  text-align: center;
+  font-size: 20px;
+  display:block;
+  padding: 20px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
+}
+#leva a {
+  color: #fff;
+  text-decoration: none;
+}
+#leva a:hover{
+  color: #000;
+  text-decoration: underline;
+}
+#button strong {
+  font-weight: bold;
+}
+#prava {
+  width: 370px;
+  height: 520px;
+  float: left;
+}
+#prava h1 {
+  font-size: 30px;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+
+#prava p {
+  text-align: justify;
+  margin: 20px 0px 40px 0px;
+}
+
+.zavri {
+  float: right;
+}
+.mapka {
+  float: left;
+  width: 166px;
+  height: 196px;
+  margin: 0px 20px 0px 0px;
+}
+.ikony {
+  float: left;
+}
+.ikonka {
+  width: 170px;
+  margin: 0px 0px 15px 0px;
+}
+.ikonka strong {
+  margin: 0px 0px 30px 0px;
+  font-weight: bold;
+}

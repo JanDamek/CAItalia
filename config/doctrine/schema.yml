@@ -1,0 +1,447 @@
+Setting:
+  actAs: [Timestampable]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    SiteName: string(50)
+    email: string(50)
+    tel: string(50)
+    mobil: string(50)
+    pracovni_doba: clob
+    ulice: string(100)
+    mesto: string(100)
+    pocet_na_hp: integer
+    adr_map_google: string(255)
+    email_rezervace: string(255)
+    email_rez_nazev: string(255)
+    email_dotaz: string(255)
+    email_dotaz_nazev: string(255)
+    logo_alt: string(50)
+    logo_title: string(50) 
+    web_adr: string(55)
+    ga_code: string(100)
+    google_overeni: string(255)
+    HP_slideshow: boolean
+    HP_slideshow_interval: integer
+    
+Seo_text:
+  actAs:
+    Timestampable:
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: false
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: {type: string(50), unique: true }
+    title: string(100)
+    published: boolean
+    popis: clob
+    keywords: string(255)
+    description: string(255)  
+    
+Seo:
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: string(255)
+    popis: clob
+    keywords: string(255)
+    description: string(255)
+    title: {type: string(255), unique: true }
+
+Hp_img:
+  actAs: [Timestampable]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    img: string(255)
+    alt: string(250)
+    title: { type: string(250), unique: true }
+    url: string(250)
+    zobrazeno: { type: integer, default: 0 }
+    imprese: { type: integer, default: null }
+    zacatek: date
+    konec: date
+  indexes:
+    datum:
+      fields:
+        zacatek:
+          sorting: ASC
+        konec:
+          sorting: ASC
+
+Hp_promovat:
+  actAs: [Timestampable]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: string(250)
+    zajezdy_id: integer
+    imprese: integer
+    zobrazeno: { type: integer, default: 0 }
+    zacatek: date
+    konec: date
+    skupina: integer
+  relations:
+    Zajezdy:
+      local: zajezdy_id
+      foreign: id      
+  indexes:
+    datum:
+      fields:
+        zacatek:
+          sorting: ASC
+        konec:
+          sorting: ASC
+        imprese:
+          sorting: ASC
+    sort:
+      fields:
+        skupina:
+          sorting: ASC
+        zobrazeno:
+          sorting: ASC
+
+Kategorie:
+  actAs:
+    Timestampable:
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: {type: string(150), unique: true, notnull: true}
+    title: string(50)
+    popis: clob
+    poradi: integer
+    kat: 
+      type: enum
+      values: ["Leto","Zima","Agroturistika"]
+      default: Leto
+    seo_text_id: integer
+    keywords: string(255)
+    description: string(255)
+  relations:
+    Destinace:
+      class: Destinace
+      local: destinace_id
+      foreign: kategorie_id
+      refClass: DestinaceKategorie
+    Seo_text:
+      class: Seo_text
+      local: seo_text_id
+      foreign: id
+  indexes:
+    sorting:
+      fields:
+        poradi:
+          sorting: ASC
+
+Destinace:
+  actAs:
+    Timestampable:
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: {type: string(50), unique: true, notnull: true}
+    title: string(50)
+    img: string(255)
+    kat: 
+      type: enum
+      values: ["Leto","Zima","Agroturistika"]
+      default: Leto
+    popis: {type: clob}
+    keywords: string(255)
+    description: string(255)
+    poradi: integer
+    adr_map_google: string(255)
+    regiony_id: integer
+    publikovat_italie: boolean
+    poradi_italie: integer
+    cena_od_italie: float
+    cena_od_italie_ozna: string(25)
+    popisek_italie: clob
+    pozice_italie_x: integer
+    pozice_italie_y: integer
+  relations:
+    Kategorie:
+      class: Kategorie
+      local: kategorie_id
+      foreign: destinace_id
+      refClass: DestinaceKategorie
+    Regiony:  
+      local: regiony_id
+      foreign: id
+  indexes:
+    sorting:
+      fields:
+        poradi:
+          sorting: ASC    
+
+Oblast:
+  actAs:
+    Timestampable:
+      Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: {type: string(50), unique: true, notnull: true}
+    popis: {type: clob}
+    destinace_id: integer
+    kat: 
+      type: enum
+      values: ["Leto","Zima","Agroturistika"]
+      default: Leto
+    adr_map_google: string(255
+  relations:
+    Destinace:
+      local: destinace_id
+      foreign: id
+      
+Zajezdy:
+  actAs:
+    Timestampable:
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: {type: string(50), unique: true, notnull: true}
+    destinace_id: {type: integer, notnull: true}
+    oblast_id: integer
+    kat: 
+      type: enum
+      values: ["Leto","Zima","Agroturistika"]
+      default: Leto
+    typ_id: integer
+    cena_od: {type: float}
+    cena_typ: integer
+    ceny_id: {type: integer}
+    ceny2_id: {type: integer}
+    obrazek: string(255)
+    gallery_id: { type: integer, notnull: false }
+    publikovat: {type: boolean, default: false}
+    max_pocet_osob: integer
+    max_pristilka: integer
+    popis_list: clob
+    popis_detail: clob
+    last_minute: {type: boolean, default: false}
+    cena_last_minute: float
+    last_minute_do: date
+    ceny_last_minute_id: integer
+    ceny_last_minute2_id: integer
+    popis_pod_cenikem: clob
+    akce: {type: boolean, default: false}
+    autobus: boolean
+    parkoviste: boolean
+    klimatizace: boolean
+    bazen: boolean
+    strava: boolean
+    internet: boolean
+    plazovy_servis: boolean
+    tv: boolean
+    zvire: boolean
+    adr_map_google: string(255)
+    promovat_hp_do: date
+    promovat_hp_pos: integer
+    keywords: string(255)
+    description: string(255)
+    detail: { type: integer, default: 0 }
+    zobrazeno: { type: integer, default: 0 }
+    imprese: { type: integer, default: null }
+    zacatek: date
+    konec: date
+    poradi: integer
+  relations:
+    Gallery:
+      class: Gallery
+      local: gallery_id
+      foreign: id
+    Typ:
+      local: typ_id
+      foreign: id
+    Oblast:
+      local: oblast_id
+      foreign: id
+    Destinace:
+      local: destinace_id
+      foreign: id
+    Ceny:
+      class: Ceny
+      local: ceny_id
+      foreign: id
+    CenyLastMinute:
+      class: Ceny
+      local: ceny_last_minute_id
+      foreign: id
+    Ceny2:
+      class: Ceny
+      local: ceny2_id
+      foreign: id
+    CenyLastMinute2:
+      class: Ceny
+      local: ceny_last_minute2_id
+      foreign: id
+    CenaTyp:
+      class: CenaTyp
+      local: cena_typ
+      foreign: id
+  indexes:
+    datum:
+      fields:
+        zacatek:
+          sorting: ASC
+        konec:
+          sorting: ASC
+        imprese:
+          sorting: ASC
+        publikovat:
+          sorting: ASC        
+    sorting:
+      fields:
+        zobrazeno:
+          sorting: ASC    
+    vypis:
+      fields:
+        zacatek:
+          sorting: ASC
+        id:
+          sorting: ASC
+
+Typ:
+  actAs:
+    Timestampable:
+      Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: {type: string(50), unique: true, notnull: true}
+    popis: {type: clob}
+
+ReklamaPozice:
+  actAs: [Timestampable]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: {type: string(50)}
+    popis: clob
+
+Reklama:
+  actAs: [Timestampable]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    reklama_pozice_id: integer
+    name: {type: string(50), unique: true }
+    zacatek: date
+    konec: date
+    img: string(255)
+    url: string(255)
+    imprese: integer
+    poznamka: clob
+    zobrazeno: { type: integer, default: 0 }
+  relations:
+    ReklamaPozice:
+      local: reklama_pozice_id
+      foreign: id
+  indexes:
+    datum:
+      fields:
+        zacatek:
+          sorting: ASC
+        konec:
+          sorting: ASC
+    zobrazeni:
+      fields:
+        zobrazeno:
+          sorting: DESC
+        zacatek:
+          sorting: ASC      
+
+Stranky:
+  actAs:
+    Timestampable:
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: false
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: {type: string(50), unique: true }
+    title: string(100)
+    popis: clob
+    keywords: string(255)
+    description: string(255)
+
+Aktuality:
+  actAs:
+    Timestampable:
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: {type: string(50), unique: true }
+    kat: 
+      type: enum
+      values: ["Leto","Zima","Agroturistika"]
+      default: Leto
+    perex: clob
+    perex_img: string(255)
+    popis: clob
+    publikovat: boolean
+    publikovano: date
+    keywords: string(255)
+    description: string(255)
+    zajezdy_id: integer
+    zobrazeno: { type: integer, default: 0 }
+    detail: { type: integer, default: 0 }
+    imprese: { type: integer, default: null }
+    zacatek: date
+    konec: date
+  relations:
+    Zajezdy:
+      local: zajezdy_id
+      foreign: id
+  indexes:
+    datum:
+      fields:
+        zacatek:
+          sorting: ASC
+        konec:
+          sorting: ASC
+
+Reklama_statistika:
+  actAs:
+    Timestampable:
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    reklama_id: integer
+    reklama_pozice_id: integer
+    from_ip: string(255)
+    user_agent: string(255)
+    referer: string(255)
+    url: string(255)
+  relations:
+    Reklama:
+      local: reklama_id
+      foreign: id
+    ReklamaPozice:
+      local: reklama_pozice_id
+      foreign: id
+
+DestinaceKategorie:
+  columns:
+    destinace_id:
+      type: integer
+      primary: true
+    kategorie_id:
+      type: integer
+      primary: true
+      
+      

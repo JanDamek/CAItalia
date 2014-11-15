@@ -1,0 +1,23 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+
+all:
+  sf_guard_plugin:
+    routes_register: false
+
+  sf_media_browser:
+    assets_list:
+      js:  [/js/jquery.js, /js/jquery.dragndrop.js, /sfMediaBrowserPlugin/js/list.jquery.js]
+      css: [/sfMediaBrowserPlugin/css/list.css]
+      
+soap:
+  # ...
+  ck_web_service_plugin:
+    # ...
+    soap_options:
+      classmap:
+        # mapping of wsdl types to PHP types
+        Aktuality: ckGenericObjectAdapter_Aktuality
+        Ceny: ckGenericObjectAdapter_Ceny

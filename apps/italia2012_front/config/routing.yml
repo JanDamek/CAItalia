@@ -1,0 +1,32 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+destinace:
+  url: /destinace/:kategorie.html
+  param: { module: homepage, action: destinace }
+
+icon:
+  url: /icon/:kategorie.html
+  param: { module: homepage, action: icon }
+  
+mapa:
+  url: /mapa/:destinace.html
+  param: { module: homepage, action: mapa }
+  
+region:
+  url: /region/:id.html
+  param: { module: homepage, action: region }
+  
+
+# default rules
+homepage:
+  url:   /
+  param: { module: homepage, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

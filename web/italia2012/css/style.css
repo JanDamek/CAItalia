@@ -1,0 +1,335 @@
+/*
+Theme Name: Name
+Theme URI: http://webovky.cz/
+Description: Vzhled pro
+Version: 1.0
+Author: Mcihal Kořínek
+Author URI: http://korinekmichal.cz/
+Tags: web, css, xhtml, javascript
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+body {
+    font-family: arial;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #fff;
+    background: url(pic/bg.jpg) center top no-repeat;  
+}
+
+a {
+    color:#777777;
+    text-decoration: underline;
+    -webkit-transition-delay:initial;
+    -webkit-transition-duration:0.25s;
+    -webkit-transition-property:color;
+    -webkit-transition-timing-function:ease-in-out
+}
+
+a:hover {
+    color:#ff0042;
+    text-decoration: underline;
+    -webkit-transition-delay:initial;
+    -webkit-transition-duration:0.25s;
+    -webkit-transition-property:color;
+    -webkit-transition-timing-function:ease-in-out;
+}
+
+.cistic {
+    clear: both;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+/*   PAGE   */
+#page {
+    margin: 0px auto;
+    width: 990px;
+}
+
+
+/*   HEADER   */
+#header {
+    width: 100%;
+    height: 172px;
+}
+
+#header .bar {
+    background: url(pic/header_bg.jpg) repeat-x;
+    width: 100%;
+    height: 138px;  
+}
+#header .wrap {
+    margin: 0px auto;
+    width: 990px;  
+}
+#logo {
+    width: 491px;
+    height: 104px;
+    padding: 15px 0px 0px 0px;
+}
+#logo span {
+    display: none;
+}
+#header .barstin {
+    background: url(pic/stin_top.png) no-repeat;
+    width: 989px;
+    height: 34px;
+    margin: 0px auto;  
+}
+
+/*   CONTENT   */
+#content {
+    width: 990px;
+    height: 1000px;
+}
+
+.icon {
+    margin: 0px 0px 20px 0px;
+    font-size: 10px;
+}
+
+.hory {
+    margin: 0px 16px 0px 16px;
+}
+
+.chcik {
+    height: 100px;
+
+}
+.chcik strong {
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0px 0px 110px;
+}
+
+
+
+#sidebar {
+    width: 269px;
+    float: left;
+}
+
+#mapa {
+    margin: 96px 0px 0px 0px;
+    width: 721px;
+    height: 631px;
+    float: right;
+}
+
+#menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background: url(pic/menu_bg.png) no-repeat;
+    width: 210px;
+    height: 571px;
+    padding: 60px 0px 0px 0px;
+    margin: 20px 0px 0px 29px;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 160px;
+    margin: 0px 0px 10px 25px;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+    background: url(pic/menu_li_bg.png) bottom repeat-x; 
+}
+#menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+#menu li a:hover {
+    color: #fff;
+    background: #031749;
+    padding: 10px 20px 10px 20px;
+    -moz-border-radius: 12px; 
+    -webkit-border-radius: 12px;
+    border-radius: 12px; 
+}
+
+
+/*   REKLAMA   */
+#reklama {
+    width: 990px;
+    margin: 30px 0px 0px 0px;
+    float: left;
+}
+#reklama a {
+    color: #66c5ea;
+}
+#reklama a:hover {
+    color: #fff;
+}
+
+
+
+#reklama .banner {
+    background: url(pic/reklama_bg.png) no-repeat;
+    width: 234px;
+    height: 181px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 12px 0px 0px;
+    float: left;
+    text-align: center;
+}
+#reklama .strong {
+    width: 234px;
+    text-align: center;
+}
+.bannerimg {
+    margin: 0px 0px 20px 0px;
+}
+
+
+/*   FOOTER   */
+#footer {
+    background: url(pic/footer.png) center bottom no-repeat;
+    width: 100%;
+    height: 220px;
+}
+
+#footer .wrapere {
+    width: 990px;
+    margin: 0px auto;
+}
+
+#footer .copy {
+    float: left;
+    margin: 190px 0px 0px 0px;
+}
+
+#footer .copy a {
+    color: #fff;
+}
+#footer .copy a:hover {
+    color: #3694bd;
+}
+
+#footer .ikony {
+    background: url(pic/ikony.png) no-repeat;
+    width: 275px;
+    height: 120px;
+    padding: 100px 0px 0px 60px;
+    float: right;
+}
+
+.logo {
+    border: 0;
+    height: 104px;
+    width: 491px;
+}
+.bottom_link{
+    border: 0;
+    height: 48px;
+    width: 48px;              
+}
+.bottom_info{
+    float: left; 
+    text-align: center;
+}
+.bottom_info img.info{
+    margin: 0px 30px 0px 30px;
+}
+
+
+#zajezd {
+    background: url(pic/popup_bg.png) no-repeat;
+    width: 800px;
+    height: 600px;
+}
+
+.sel_icon1 {
+    background-image: url(/css/pic/zaskrtnuto.png);
+    width: 53px;
+    height: 53px;
+    float: right;
+    position: relative;
+    top: -72px;
+    left: -205px;
+}
+
+.sel_icon2 {
+    background-image: url(/css/pic/zaskrtnuto.png);
+    width: 53px;
+    height: 53px;
+    float: right;
+    position: relative;
+    top: -76px;
+    left: -112px;
+}
+
+.sel_icon3 {
+    background-image: url(/css/pic/zaskrtnuto.png);
+    width: 53px;
+    height: 53px;
+    float: right;
+    position: relative;
+    top: -74px;
+    left: -19px;
+}
+
+.modal_close a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+}

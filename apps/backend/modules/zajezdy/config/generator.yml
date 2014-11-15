@@ -1,0 +1,64 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           zajezdy
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          zajezdy
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        poradi:
+          label: Pořadí
+#          help: Dle toho čísla je destinace seřazena a zájezdy se vypisují v tomto pořadí.<br /> Pořadí je od nejvetšího k nejmenšímu. Nasleduje datum začátku a pořadí v ložení do adminu.
+        name:
+          label: Název zájezdu
+        cena_od:
+          label: Cena zájezdu od
+#          help: Cena zájezdu od, uvedená v přehledu zájezd;
+        cena_typ:
+          label: Typ ceny
+        ceny_id:
+          label: Přiřazený ceník
+        ceny2_id:
+          label: Přiřazený ceník, pokračování
+        max_pocet_osob:
+          label: Maximální počet osob
+#          help: Označení největšího pokoje v zájezdu
+        max_pristilka:
+          label: Počet přistýlek
+#          help: Počet přistýlek mažných k jednomu pokoji
+        popis_pod_cenikem:
+          label: Popis pod ceníkem
+#          help: Dovysvětlení ceníku atd.
+        zobrazeno:
+          label: Celkový počet zobrazení (zobrazeno)
+#          help: Označuje počet zobrazení zájezdu. Kdýž počet zobrazení, překročí počet impresi, zájezd se nezobrazuje. Jedna se pocet zobrazeni náhledu.
+        detail:
+          label: Počet zobrazení detailu zájezdu.
+#          help: Počet pouze pro informaci.
+        kat:
+          label: Skupina
+#          help: Označení do které skupiny daný záznam patří. Leto, Zima, Agroturistika. Nutno pro rozdeleni pro microsite a aplikaci ceniků
+      list:
+        display: [kat, =name, Destinace, poradi, publikovat, last_minute ]
+        title: Zájezdy        
+      filter:  ~
+      form:    ~
+      edit:    
+        title: Editace zájezku "%%name%%"
+        display:
+          "Základní data": [name, destinace_id, poradi,publikovat, oblast_id, kat, typ_id, akce, popis_list, popis_detail, adr_map_google]
+          "Ceny": [cena_od, cena_typ, ceny_id, ceny2_id, max_pocet_osob, max_pristilka,popis_pod_cenikem]
+          "Obrázky": [obrazek, gallery_id]
+          "Lastminute": [last_minute,cena_last_minute,last_minute_do,ceny_last_minute_id,ceny_last_minute2_id]
+          "Piktogramy": [autobus, parkoviste, klimatizace, bazen, strava, internet, plazovy_servis, tv, zvire ]
+          "SEO" : [keywords, description]
+          "Statistika": [detail,zobrazeno]
+      new:     ~

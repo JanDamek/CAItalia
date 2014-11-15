@@ -1,0 +1,25 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           aktuality
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          aktuality
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        kat:
+          label: Skupina kategorie zájezdu
+          help: Označení do které skupiny daný záznam patří. Leto, Zima, Agroturistika. Nutno pro rozdeleni pro microsite a aplikaci ceniků
+      list:
+        display: [kat, =name, publikovat, publikovano]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

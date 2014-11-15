@@ -1,0 +1,6 @@
+## YAML Template.
+---
+
+index:
+  enabled:    true
+  contextual:       true

@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           DolniOdkazy
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          dolni_odkazy
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        url:
+          label: URL adresa odkazu
+          help: Pokud je odkaz bez http:// je to vnitřní adresa serveru. nepoužívat bez http://
+      list:    ~
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

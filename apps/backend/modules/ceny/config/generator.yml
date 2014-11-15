@@ -1,0 +1,51 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Ceny
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          ceny
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        is_active:
+          label: Aktivní
+        title:
+          label: Titulek
+        description:
+          label: Popis
+        kat:
+          label: Skupina kategorie zájezdu
+#          help: Označení do které skupiny daný záznam patří. Leto, Zima, Agroturistika. Nutno pro rozdeleni pro microsite a aplikaci ceniků
+      list:
+        display: [id,kat, is_active, =name, min_den]
+        title: Ceník
+        fields:
+          is_active:
+            label: Aktivní
+          title:
+            label: Titlek
+          description:
+            label: Popis
+      filter:  ~
+      form:
+        display: [ name,popis,is_active,kat,min_den,sl1,sl1p,sl2,sl2p,sl3,sl3p,sl4,sl4p,sl5,sl5p,sl6,sl6p,sl7,sl7p,sl8,sl8p,sl9,sl9p, radek, ~showCenyRadky ]
+        fields:
+          is_active:
+            label: Aktivní
+          title:
+            label: Titulek
+          description:
+            label: Popis
+      edit:
+        title: Editace ceníku
+      new:
+        title: Nový ceník
+
+

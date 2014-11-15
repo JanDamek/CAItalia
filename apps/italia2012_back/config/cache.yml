@@ -1,0 +1,23 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/09-Cache
+
+default:
+  enabled:          true
+  with_layout:      true
+  lifetime:         86400
+  client_lifetime:  1000
+  contextual:       false
+
+view_cache_manager:
+  class: sfViewCacheManager
+  param:
+    cache_key_use_vary_headers: true
+    cache_key_use_host_name:    true
+
+view_cache:
+  class: sfFileCache
+  param:
+    automatic_cleaning_factor: 0
+    cache_dir:                 %SF_TEMPLATE_CACHE_DIR%
+    lifetime:                  86400
+    prefix:                    %SF_APP_DIR%/template

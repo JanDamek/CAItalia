@@ -1,0 +1,124 @@
+# cenik a cenikove polozky
+CenaTyp:
+  actAs:
+    Timestampable: ~
+  columns:
+    name: string(50)
+    zkratka: string(10)
+    nazev: string(25)
+    popis: clob    
+
+Ceny:
+  actAs:
+    Timestampable: ~
+    Sluggable:
+      unique: false
+      fields: [name]
+      canUpdate: true
+  columns:
+    name:       { type: string(100), notnull: true }
+    popis:      { type: clob, notnull: false }
+    kat: 
+      type: enum
+      values: ["Leto","Zima","Agroturistika"]
+      default: Leto
+    is_active:  { type: boolean, notnull: true, default: true }
+    min_den:    integer
+    sl1:        string(50)
+    sl1p:       clob
+    sl2:        string(50)
+    sl2p:       clob
+    sl3:        string(50)
+    sl3p:       clob
+    sl4:        string(50)
+    sl4p:       clob
+    sl5:        string(50)
+    sl5p:       clob
+    sl6:        string(50)
+    sl6p:       clob
+    sl7:        string(50)
+    sl7p:       clob
+    sl8:        string(50)
+    sl8p:       clob
+    sl9:        string(50)
+    sl9p:       clob
+  relations:
+    CenyRadky:
+      class: CenyRadky
+      local: id
+      foreign: ceny_id
+      type: many
+
+CenyRadky:
+  actAs:
+    Timestampable: ~
+  columns:
+    ceny_id:    { type: bigint(20), notnull: true }
+    is_active:  { type: boolean, notnull: true, default: true }
+    radek:      { type: integer }
+    sl_od:      date
+    sl_do:      date
+    min_noc:    integer
+    sl1:        float
+    sl2:        float
+    sl3:        float
+    sl4:        float
+    sl5:        float
+    sl6:        float
+    sl7:        float
+    sl8:        float
+    sl9:        float
+    bonus1:     float
+    bonus1_p:   string(250)
+    bonus2:     float
+    bonus2_p:   string(250)
+    bonus3:     float
+    bonus3_p:   string(250)
+    bonus4:     float
+    bonus4_p:   string(250)
+    bonus5:     float
+    bonus5_p:   string(250)
+    bonus6:     float
+    bonus6_p:   string(250)
+    bonus7:     float
+    bonus7_p:   string(250)
+    bonus8:     float
+    bonus8_p:   string(250)
+    bonus9:     float
+    bonus9_p:   string(250)
+    sleva1:     float
+    sleva1_p:   string(250)
+    sleva2:     float
+    sleva2_p:   string(250)
+    sleva3:     float
+    sleva3_p:   string(250)
+    sleva4:     float
+    sleva4_p:   string(250)
+    sleva5:     float
+    sleva5_p:   string(250)
+    sleva6:     float
+    sleva6_p:   string(250)
+    sleva7:     float
+    sleva7_p:   string(250)
+    sleva8:     float
+    sleva8_p:   string(250)
+    sleva9:     float
+    sleva9_p:   string(250)
+  relations:
+    Ceny:
+      local: ceny_id
+      foreign: id
+      onDelete: CASCADE
+      foreignAlias: CenyRadky
+  indexes:
+    sort:
+      fields:
+        ceny_id:
+          sorting: ASC
+        is_active:
+          sorting: ASC
+        radek:
+          sorting: ASC
+        sl_od:
+          sorting: ASC
+        

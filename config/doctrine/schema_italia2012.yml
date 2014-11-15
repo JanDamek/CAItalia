@@ -1,0 +1,53 @@
+## YAML Template.
+---
+SettingItalia2012:
+  actAs: [Timestampable]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    SiteName: string(50)
+    email: string(50)
+    tel: string(50)
+    mobil: string(50)
+    pracovni_doba: clob
+    ulice: string(100)
+    mesto: string(100)
+    pocet_na_hp: integer
+    adr_map_google: string(255)
+    web_adr: string(55)
+    ga_code: string(100)
+    google_overeni: string(255)  
+    
+DolniOdkazy:
+  columns:
+    name: string(255)
+    url: string(255)
+    poradi: integer
+    publish: {type: boolean, default: false}
+    zobrazit_od: date
+    zobrazit_do: date
+    
+ObrazkoveOdkazy:    
+  columns:
+    name: string(255)
+    url: string(255)
+    img: string(255)
+    poradi: integer
+    publish: {type: boolean, default: false}
+    zobrazit_od: date
+    zobrazit_do: date
+    
+Regiony:
+  actAs: [Timestampable]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true }
+    name: string(255)
+    img: string(255)
+    img_small: string(255)
+  relations:
+    Destinace:
+      class: Regiony
+      local: regiony_id
+      foreign: id
+      type: many
+           
+  

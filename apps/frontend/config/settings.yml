@@ -1,0 +1,53 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/04-Settings
+
+prod:
+  .settings:
+    no_script_name:         true
+    logging_enabled:        false
+    no_script_name:         true
+    cache:                  true
+    compressed:             true
+
+dev:
+  .settings:
+    error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:              true
+    cache:                  true
+    no_script_name:         false
+    etag:                   false
+    compressed:             true
+
+test:
+  .settings:
+    error_reporting:        <?php echo ((E_ALL | E_STRICT) ^ E_NOTICE)."\n" ?>
+    cache:                  false
+    web_debug:              false
+    no_script_name:         false
+    etag:                   false
+
+all:
+  .settings:
+    etag:                   on
+    # Form security secret (CSRF protection)
+    csrf_secret:            70d5404d484454888e28a929e4a41be0fe72f90c
+
+    # Output escaping settings
+    escaping_strategy:      true
+    escaping_method:        ESC_SPECIALCHARS
+
+    # Enable the database manager
+    use_database:           true
+
+    enabled_modules:        [default, sfGuardAuth, sfApply]
+    login_module:           sfGuardAuth
+    login_action:           signin
+
+    secure_module:          sfGuardAuth
+    secure_action:          secure
+
+    default_culture:        cs
+    culture:                cs
+    i18n:                   on
+
+    standard_helpers:       [Partial, Cache, I18N, ImageResizer, CustomDate, Text, Date, Number, Navigation]
